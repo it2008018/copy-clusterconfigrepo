@@ -1,0 +1,5 @@
+clusters:
+- name: durablefnks
+  server: https://durablefnks-dns-v4f5i5j5.hcp.centralindia.azmk8s.io:443
+  env: dev
+
