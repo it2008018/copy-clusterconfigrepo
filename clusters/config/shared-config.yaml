@@ -1,4 +1,4 @@
 clusters:
-- name: durablefnks
-  server: https://durablefnks-dns-v4f5i5j5.hcp.centralindia.azmk8s.io:443
+- name: cluster-zuscu-d006-b207-aks-d1-atldp
+  server: http://cluster-zuscu-d006-b207-aks-d1-atldp:8001
   env: dev
