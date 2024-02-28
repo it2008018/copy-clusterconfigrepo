@@ -2,3 +2,6 @@ clusters:
 - name: cluster-zuscu-d006-b207-aks-d1-atldp
   server: http://cluster-zuscu-d006-b207-aks-d1-atldp:8001
   env: dev
+- name: uddhao-dpc
+  server: http://cluster-uddhao-dpc:8001
+  env: test1
