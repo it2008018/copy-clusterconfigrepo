@@ -5,3 +5,6 @@ clusters:
 - name: uddhao-dpc
   server: http://cluster-uddhao-dpc:8001
   env: test1
+- name: test-dpc
+  server: http://cluster-test-dpc:8001
+  env: test2
