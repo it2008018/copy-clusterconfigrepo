@@ -8,3 +8,6 @@ clusters:
 - name: test-dpc
   server: http://cluster-test-dpc:8001
   env: test2
+- name: test-tara
+  server: http://cluster-test-tara:8001
+  env: test3
