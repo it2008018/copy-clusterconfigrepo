@@ -2,7 +2,7 @@ clusters:
 - name: copy-dpc-cp
   server: http://cluster-copy-dpc:8001
   env: copy1
-- name: copy-dpc-cp
+- name: copy-dpc-cp1
   server: http://cluster-copy-dpc:8001
   env: copy2
 - name: copy-tara-cp
