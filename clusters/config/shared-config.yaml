@@ -1,7 +1,7 @@
 clusters:
-- name: copy-dpc-cp
+- name: dev
   server: http://cluster-copy-dpc:8001
-  env: copy1
+  env: dev
 - name: copy-dpc-cp1
   server: http://cluster-copy-dpc:8001
   env: copy2
