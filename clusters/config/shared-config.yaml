@@ -1,13 +1,10 @@
 clusters:
-- name: in-cluster
-  server: https://kubernetes.default.svc
-  env: dev
-- name: uddhao-dpc
+- name: uddhao-dpc-cp
   server: http://cluster-uddhao-dpc:8001
   env: test1
-- name: test-dpc
+- name: test-dpc-cp
   server: http://cluster-test-dpc:8001
   env: test2
-- name: test-tara
+- name: test-tara-cp
   server: http://cluster-test-tara:8001
   env: test3
