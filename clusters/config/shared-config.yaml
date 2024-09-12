@@ -2,9 +2,3 @@ clusters:
 - name: dev
   server: http://cluster-copy-dpc:8001
   env: dev
-- name: copy-dpc-cp1
-  server: http://cluster-copy-dpc:8001
-  env: copy2
-- name: copy-tara-cp
-  server: http://cluster-copy-tara:8001
-  env: copy3
