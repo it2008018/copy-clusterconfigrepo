@@ -1,4 +1,4 @@
 clusters:
 - name: dev
-  server: http://cluster-copy-dpc:8001
+  server: https://kubernetes.default.svc
   env: dev
