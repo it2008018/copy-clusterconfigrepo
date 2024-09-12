@@ -1,10 +1,10 @@
 clusters:
-- name: uddhao-dpc-cp
-  server: http://cluster-uddhao-dpc:8001
-  env: test1
-- name: test-dpc-cp
-  server: http://cluster-test-dpc:8001
-  env: test2
-- name: test-tara-cp
-  server: http://cluster-test-tara:8001
-  env: test3
+- name: copy-dpc-cp
+  server: http://cluster-copy-dpc:8001
+  env: copy1
+- name: copy-dpc-cp
+  server: http://cluster-copy-dpc:8001
+  env: copy2
+- name: copy-tara-cp
+  server: http://cluster-copy-tara:8001
+  env: copy3
