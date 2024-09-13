@@ -6,6 +6,6 @@ metadata:
 data:
   cluster: |
     server: https://kubernetes.default.svc
-    namespace: dev
-    name: dev
+    namespace: t4
+    name: t4
 
