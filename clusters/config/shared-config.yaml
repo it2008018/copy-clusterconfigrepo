@@ -1,4 +1,11 @@
-clusters:
-- name: dev
-  server: https://kubernetes.default.svc
-  env: dev
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster1-config
+  namespace: argocd
+data:
+  cluster: |
+    server: https://kubernetes.default.svc
+    namespace: dev
+    name: dev
+
